@@ -17,7 +17,7 @@
   <body>
     <header class="page">
      <div class="container main-container">
-        <nav>
+        <nav class="header-nav">
           <a href="./index.html" class="logo-web">Web<span class="logo-studio">Studio</span></a>
           <ul class="site-nav list">
             <li class="item"><a href="./index.html" class="link current">Студія</a></li>
@@ -33,13 +33,15 @@
          </header>
     <main>
       <section class="hero section">
+        <div class="container">
         <h1 class="module-hero">Ефективні рішення <br />для вашого бізнесу</h1>
         <button type="button" class="module-title">Замовити послугу</button>
+        </div>
       </section>
-      <section class="block section">
+      <section class="block section section-reset">
         <div class="container">
         <h2 class="hidden-block">Особливості роботи</h2>
-        <ul class="list">
+        <ul class="list description">
           <li class="item">
             <h3 class="underlist">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="undertitle">
@@ -70,8 +72,7 @@
       <section class="block-work section">
         <div class="container">
         <h2 class="headline">Чим ми займаємося</h2>
-
-        <ul class="list">
+        <ul class="list block-work-list">
           <li class="item">
             <img src="./images/typing.jpg" alt="приклад роботи1" width="370" />
           </li>
@@ -86,26 +87,34 @@
       <section class="team-block section">
         <div class="container ">
         <h2 class="headline">Наша команда</h2>
-        <ul class="list">
+        <ul class="list team-list">
           <li class="item">
             <img src="./images/firstman.jpg" alt="Product Designer" width="270" />
+            <div class="card">
             <h3 class="name">Ігор Дем'яненко</h3>
             <p class="occupation">Product Designer</p>
+            </div>
           </li>
           <li class="item">
             <img src="./images/girl.jpg" alt="Frontend Developer" width="270" />
+            <div class="card">
             <h3 class="name">Ольга Рєпіна</h3>
             <p class="occupation">Frontend Developer</p>
+            </div>
           </li>
           <li class="item">
             <img src="./images/secondman.jpg" alt="Marketing" width="270" />
+            <div class="card">
             <h3 class="name">Микола Тарасов</h3>
             <p class="occupation">Marketing</p>
+            </div>
           </li>
           <li class="item">
             <img src="./images/thirdman.jpg" alt="UI Designer" width="270" />
+            <div class="card">
             <h3 class="name">Михайло Єрмаков</h3>
             <p class="occupation">UI Designer</p>
+            </div>
           </li>
         </ul>
         </div>
@@ -116,7 +125,7 @@
       <a href="./index.html" class="logo-web">Web<span class="logo-studio">Studio</span></a>
       <address>
         <ul class="list">
-          <li>
+          <li class="list-footer">
             <a
               href="https://goo.gl/maps/FgoHREFZoCHaMx2k9"
               target="_blank"
@@ -125,10 +134,10 @@
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li>
+          <li class="list-footer">
             <a href="mailto:info@example.com" class="link-bottom">info@example.com</a>
           </li>
-          <li><a href="tel:+380961111111" class="link-bottom">+38 096 111 11 11</a></li>
+          <li class="list-footer"><a href="tel:+380961111111" class="link-bottom">+38 096 111 11 11</a></li>
         </ul>
       </address>
       </div>

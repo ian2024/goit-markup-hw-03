@@ -14,7 +14,7 @@ h1, h2, h3, ul, p {
 
 body {
     color: var(--primary-text-color);
-    background-color: #F5F5F5;
+    
 
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
@@ -228,8 +228,6 @@ footer .logo-studio {
 .section-reset {
     padding-bottom: 0;
 }
-
-.section-r
 
 .block-work {
     vertical-align: top;
